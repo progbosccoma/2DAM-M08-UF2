@@ -48,7 +48,7 @@ public class MediaPlayerSample extends Activity implements MediaPlayer.OnPrepare
 
 	/**
 	 * Implementació de l'esdeveniment clic del botó
-	 * @param v
+	 * @param v la vista que rep el click
 	 */
 	public void btnClick(View v) {
 		Button b = (Button) v;
@@ -66,7 +66,7 @@ public class MediaPlayerSample extends Activity implements MediaPlayer.OnPrepare
 		}
 	}
 
-	
+
     @Override
     public void onPrepared(MediaPlayer mp) {
         // iniciar la reproducció
