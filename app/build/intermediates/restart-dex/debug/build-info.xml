@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="560dpi"
+    format="6"
+    timestamp="336507323978492" >
+
+    <task
+        name="javac"
+        duration="70" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="11" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="D:\DOCUMENTS\INS BOSC DE LA COMA\2015-2016\2DAM-MP08-PMDM\UF2\EXEMPLES\MediaPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1_860f6b9612ac935e24bb8538342d9deac3277cff\classes.dex"
+        type="DEX" />
+
+    <build timestamp="335566026490129" >
+        <artifact
+            location="D:\DOCUMENTS\INS BOSC DE LA COMA\2015-2016\2DAM-MP08-PMDM\UF2\EXEMPLES\MediaPlayer\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="335967514275300" >
+        <artifact
+            location="D:\DOCUMENTS\INS BOSC DE LA COMA\2015-2016\2DAM-MP08-PMDM\UF2\EXEMPLES\MediaPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0_51b8dd6220ab0a5ce6b7091508c76e610b4e3918\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="336507323978492" >
+        <artifact
+            location="D:\DOCUMENTS\INS BOSC DE LA COMA\2015-2016\2DAM-MP08-PMDM\UF2\EXEMPLES\MediaPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1_860f6b9612ac935e24bb8538342d9deac3277cff\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
